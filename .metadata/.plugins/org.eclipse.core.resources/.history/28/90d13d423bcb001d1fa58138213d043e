@@ -1,0 +1,19 @@
+package in.ashokit.beans;
+
+import java.awt.Window.Type;
+
+class Robot {
+	
+	private Chip chip;
+	
+	public void doWork() {
+		String type = chip.chipType();
+		
+		if(type.equals("32-Bit")) {
+			System.out.println("Performance is slow");
+		}
+	}
+	
+	
+
+}

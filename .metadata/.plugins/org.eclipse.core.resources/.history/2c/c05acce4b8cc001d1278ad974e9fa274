@@ -1,0 +1,5 @@
+package in.ashokit.jpa;
+
+public class Book {
+
+}

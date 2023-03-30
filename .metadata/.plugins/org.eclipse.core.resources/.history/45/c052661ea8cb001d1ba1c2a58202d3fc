@@ -1,0 +1,19 @@
+package in.ashokit.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class ReportService {
+	
+	@Autowired
+	private ReportDao reportDao;
+	
+	
+	public void generateReport() {
+		reportDao.getData();
+		System.out.println("Report Generated");
+	}
+	
+	
+	
+
+}

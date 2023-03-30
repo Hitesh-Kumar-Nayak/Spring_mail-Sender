@@ -1,0 +1,13 @@
+package in.ashokit.beans;
+
+public class chip {
+	
+	public chip() {
+		System.out.println("Chip :: Consstructor");
+	}
+	
+	public String chipType() {
+		return "32-bit";
+	}
+
+}

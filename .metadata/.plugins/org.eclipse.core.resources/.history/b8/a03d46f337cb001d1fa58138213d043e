@@ -1,0 +1,9 @@
+package in.ashokit.beans;
+
+public class Chip {
+	
+	public String chipType() {
+		return "32-Bit";
+	}
+
+}
